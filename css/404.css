@@ -1,0 +1,85 @@
+body {
+background: url(/images/body.png);
+	text-align: center;
+ font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  font-size: 10px;
+  font-weight: normal;
+	margin: 0;
+	padding:0;
+	color: #677375;
+}
+a {
+	color: #677375;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+.layout {
+	padding: 150px;
+	margin: 0 auto;
+	width: 350px;
+}
+
+h1{
+	color: #677375;
+	font-size: 38px;
+	font-weight: bold;
+	margin: 30px 0 10px;
+}
+p{
+  margin: 0 0 20px;
+}
+.buttons {text-align: center;}
+
+
+.button {
+  color: #f6f7f8;
+  background-image: none;
+  background-color: #3498db;
+  height: 32px;
+  line-height: 32px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 15px;
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.button:link {
+  color: #f6f7f8;
+}
+
+.button:focus, .button:hover {
+  background-color: #5dade2;
+  text-decoration: none;
+  color: #f6f7f8;
+}
+
+.button:active {
+  background-color: #2c81ba;
+  color: #f6f7f8;
+}
+
+.button:disabled {
+  background-color: #3498db;
+  color: #f6f7f8;
+  opacity: 0.5;
+}
+
+.button:visited {
+  color: #f6f7f8;
+}
