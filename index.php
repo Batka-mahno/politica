@@ -1,5 +1,5 @@
 ﻿<?php
-session_start();
+
 include('head.php'); ?> 
 <?php require_once 'config.inc.php'; include_once 'module.php';?>
 <?php  include('count.php'); ?>
